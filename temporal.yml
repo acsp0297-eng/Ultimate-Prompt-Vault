@@ -1,0 +1,8 @@
+# Example notes for connecting to Temporal Cloud or local dev
+namespace: uphigh-online
+task_queue: uphigh-tq
+
+# For Temporal Cloud, set these as env variables for workers:
+# TEMPORAL_ADDRESS=xxxx.tmprl.cloud:7233
+# TEMPORAL_NAMESPACE=uphigh-online
+# TEMPORAL_MTLS=true (if using mTLS), and provide certs.
